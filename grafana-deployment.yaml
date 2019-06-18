@@ -16,6 +16,7 @@ spec:
       containers:
         - image: grafana/grafana:latest
           name: grafana
+          ports:
           # env:
           resources:
             limits:
